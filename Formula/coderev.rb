@@ -7,22 +7,22 @@ class Coderev < Formula
   on_macos do
     on_arm do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-darwin-arm64"
-      sha256 "e854fd6c32cf4f0e45668bf92f14aea51413aaf86612016aa4f6c4e796161caf"
+      sha256 "a0200296b32dc02bb78068e2be61d83db2b19cd97577f2b52fe3d2d7e1b6c509"
     end
     on_intel do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-darwin-amd64"
-      sha256 "839a457db9e3870cc042b18ccbb0e5548b55d8543369f3d953946ff351a3721d"
+      sha256 "95a80334bb9840523a4668b53ce6c4160989dd29d370763b3b3c6d7a963bba8f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-linux-arm64"
-      sha256 "ca84d7ed0ea2b8837b96ecd80079c92d6587344f8b0e358cdea4c1576c1595fc"
+      sha256 "009b0311362870806be0595d390198dac159c2a23bb61df6d05f60feb9e1f6d2"
     end
     on_intel do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-linux-amd64"
-      sha256 "7a66dbec82d6c0eec80eb9e8eb83dbfb554a516dd5d0f7baa5f4933584061bb8"
+      sha256 "29248dbb6d4df770241ef9efc41e2d622aa1b81f6c8b2a224eb21a20f8abbcb8"
     end
   end
 
