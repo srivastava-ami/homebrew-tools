@@ -2,27 +2,27 @@ class Coderev < Formula
   desc "Deterministic, polyglot code-standards enforcement — no server, no LLM"
   homepage "https://github.com/srivastava-ami/coderev"
   license "LicenseRef-BusinessSourceLicense-1.1"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-darwin-arm64"
-      sha256 "ca4eba022fd867a883fc19caca51093670b3cb15203223d43da7197aa0274cdc"
+      sha256 "f5eab12c0b19bb28cc40a6f47b36d0a598b51e09ab03a1b18f98adbfa65768b6"
     end
     on_intel do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-darwin-amd64"
-      sha256 "526b50b25fa3b78b50fd1bc56b7a1a72575b249ce2cf01dbe933140dd83ef443"
+      sha256 "d9a4c0fb32acdabae2398757243ece2e22a568dcbb2cb807a00b775b6eacc7d5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-linux-arm64"
-      sha256 "089bb8a099ec1031eeb9c8fc4eaddaa0856416e974593dc46f90645b720a1ddc"
+      sha256 "22eb26831e5bd00dd8547ffd90795cc6260784eb331a63cd13ed77073312ab59"
     end
     on_intel do
       url "https://github.com/srivastava-ami/coderev/releases/download/v#{version}/coderev-v#{version}-linux-amd64"
-      sha256 "27c522e6e38feb468cf752ca65c06345fd3e718d3e9e42219986c05f55866922"
+      sha256 "d82972ff133595811dd3918253b8547726fbbf130c126ff5903738c8cc0b297a"
     end
   end
 
